@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>eazygo · check-in online per affitti brevi</title>
+<meta name="description" content="Check-in online senza app, guida della casa, assistente e vantaggi per chi torna. Invio dei dati degli ospiti alla Questura (Alloggiati Web), imposta di soggiorno e ISTAT in automatico.">
+<meta name="theme-color" content="#8C2F39">
+<link rel="icon" type="image/png" href="/icone/favicon-32.png">
+<link rel="apple-touch-icon" href="/icone/apple-touch-icon.png">
+<style>
+  :root{--p:#8C2F39;--ps:#6E222B;--pc:#F5E6E8;--sfondo:#F6F3EE;--testo:#1D1F23;--tenue:#6B6F76;--bordo:#E7E2D9}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--sfondo);color:var(--testo);line-height:1.5}
+  a{color:inherit}
+  .barra{max-width:1040px;margin:0 auto;padding:18px 20px;display:flex;align-items:center;gap:12px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;text-decoration:none}
+  .logo span{width:36px;height:36px;border-radius:10px;background:var(--p);display:flex;align-items:center;justify-content:center}
+  .spazio{flex:1}
+  .btn{display:inline-flex;align-items:center;gap:8px;border-radius:14px;padding:12px 20px;font-weight:700;text-decoration:none;font-size:16px}
+  .pri{background:var(--p);color:#fff}
+  .pri:hover{background:var(--ps)}
+  .sec{border:1.5px solid var(--p);color:var(--p);background:#fff}
+  .eroe{max-width:1040px;margin:0 auto;padding:40px 20px 28px}
+  h1{font-size:clamp(32px,6vw,52px);line-height:1.08;letter-spacing:-1px;margin:0 0 16px;max-width:760px}
+  .sotto{font-size:clamp(17px,2.4vw,20px);color:var(--tenue);max-width:640px;margin:0 0 26px}
+  .azioni{display:flex;flex-wrap:wrap;gap:12px}
+  .griglia{max-width:1040px;margin:0 auto;padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .scheda{background:#fff;border:1px solid var(--bordo);border-radius:18px;padding:20px}
+  .scheda h3{margin:10px 0 6px;font-size:18px}
+  .scheda p{margin:0;color:var(--tenue);font-size:15px}
+  .ico{width:40px;height:40px;border-radius:12px;background:var(--pc);display:flex;align-items:center;justify-content:center}
+  .ospite{max-width:1040px;margin:12px auto 0;padding:0 20px}
+  .ospite div{background:#fff;border:1px solid var(--bordo);border-radius:18px;padding:20px;display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+  .ospite p{margin:0;flex:1;min-width:220px;color:var(--tenue)}
+  .ospite b{color:var(--testo)}
+  footer{max-width:1040px;margin:30px auto 0;padding:24px 20px 40px;color:var(--tenue);font-size:14px;border-top:1px solid var(--bordo)}
+</style>
+</head>
+<body>
+  <header class="barra">
+    <a class="logo" href="/"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg></span>eazygo</a>
+    <div class="spazio"></div>
+    <a class="btn sec" href="https://app.eazygo.it/host">Accedi</a>
+  </header>
+
+  <section class="eroe">
+    <h1>Il check-in online per i tuoi affitti brevi, senza app.</h1>
+    <p class="sotto">Gli ospiti fanno il check-in dal link che ricevono, trovano la guida della casa e un assistente che risponde per te. Tu ricevi già pronti il file per la Questura (Alloggiati Web), imposta di soggiorno e dati ISTAT.</p>
+    <div class="azioni">
+      <a class="btn pri" href="https://app.eazygo.it/host">Inizia ora</a>
+      <a class="btn sec" href="mailto:info@eazygo.it">Contattaci</a>
+    </div>
+  </section>
+
+  <section class="griglia">
+    <div class="scheda"><div class="ico">🪪</div><h3>Check-in in due minuti</h3><p>Dati e documenti degli ospiti dal telefono, senza installare nulla e senza creare account.</p></div>
+    <div class="scheda"><div class="ico">🛡️</div><h3>Questura e Comune</h3><p>Dati degli ospiti alla Questura (Alloggiati Web), imposta di soggiorno ed esenzioni, movimento turistico ISTAT.</p></div>
+    <div class="scheda"><div class="ico">💬</div><h3>Guida e assistente</h3><p>Wi-Fi, accesso, regole e consigli sempre a portata di mano, con risposte automatiche alle domande.</p></div>
+    <div class="scheda"><div class="ico">📅</div><h3>Calendari e messaggi</h3><p>Prenotazioni da Airbnb e Booking e promemoria automatici agli ospiti.</p></div>
+  </section>
+
+  <section class="ospite">
+    <div>
+      <p><b>Sei un ospite?</b> Apri il link che hai ricevuto dalla struttura, oppure inserisci il tuo codice.</p>
+      <a class="btn pri" href="https://app.eazygo.it/">Ho un codice</a>
+    </div>
+  </section>
+
+  <footer>© eazygo · <a href="mailto:info@eazygo.it">info@eazygo.it</a></footer>
+</body>
+</html>
